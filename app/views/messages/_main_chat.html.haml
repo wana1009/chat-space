@@ -15,33 +15,8 @@
       .right-header__button
         Edit
   .messages
-    .message
-      .upper-message
-        .upper-message__user-name
-          masa
-        .upper-message__date
-        2020/06/15
-      .lower-message
-        .lower-message__content
-          メッセージ
-    .message
-      .upper-message
-        .upper-message__user-name
-          nana
-        .upper-message__date
-        2020/06/15
-      .lower-message
-        .lower-message__content
-          メッセージ
-    .message
-      .upper-message
-        .upper-message__user-name
-          nanana
-        .upper-message__date
-        2020/06/15
-      .lower-message
-        .lower-message__content
-          メッセージ
+    = render @messages
+
   .form
     = form_for [@group, @message] do |f|
       = f.text_field :content, class: 'form__message', placeholder: 'type a message'
