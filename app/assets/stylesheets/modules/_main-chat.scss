@@ -13,13 +13,10 @@
       }
       &__members {
         color: #999999;
-        display: flex;
         font-size: 12px;
         margin-top: 15px;
-        .member {
-          display: inline-block;
-          padding-right: 5px;
-        }
+        display: inline-block;
+        padding-right: 5px;
       }
     }
     .right-header {
@@ -29,7 +26,7 @@
       line-height: 40px;
       padding: 0 20px;
       margin-top: 28px;
-      border: solid 1px #38aef0;
+      border: solid 1px #38aef0;  
    }
 }
 
